@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 10%;
+    background-image: url('bg_picsou.jpg');
+    background-size: cover;
+}
+.container {
+    
+
+    display: flex;
+  
+    flex-direction: column;
+
+    padding: 5% 15%;
+    
+    height: 100vh;
+
+    background-color: white;
+}
+.BoxLaneOne{
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+
+}
+.BoxLaneTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+.BoxOneOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: goldenrod;
+    width: 50%;
+    
+}
+h1{
+    margin-bottom: 3%;
+    font-size: 3em;
+}
+.BoxOneTwo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+      
+    padding:10%;
+    width: 50%;
+}
+
+#descrip{
+    font-weight: bold;
+    font-size: 140%;
+}
+p {
+    color: black;
+    
+
+}
+
+img {
+    width:60%;
+}
+
+
+
+.boarder{
+    border:2px gold solid;
+    width: 100%;
+    margin:10% 0px;
+}
+
+#formation {
+    margin: 1% 0;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    border-bottom: 2px gold solid;
+    background-color:rgb(250, 234, 141);
+
+}
+
+p {
+    margin: 1% 1%;
+}
+
+dt {
+    margin-top: 2%;
+    color: goldenrod;
+    font-style: italic;
+    margin-left: 2%;
+    font-size: 130%;
+}
+
+dd {
+
+    margin-left: 10%;
+    margin-bottom: 2%;
+
+}
+
+ul {
+    margin: 2% 0px;
+    margin-left: 7%;
+
+
+}
+
+li{
+    list-style:circle;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    
+    
+    
+}

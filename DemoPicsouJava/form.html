@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="mainCont">
+
+        <div class="titleCont">
+            <h1>Formulaire de contact</h1>
+        </div>
+        <form action="">
+    
+            <fieldset>
+                <legend>Coordonnées</legend>
+                <div class="nomCont">
+                    
+                        <input id="idNom" name="nom" placeholder="Nom" type="text">
+                        <div class="espace"></div>
+                        <input id="idPrenom" name="nom" placeholder="Prénom" type="text">
+                </div>
+                
+                <div class="sexeCont">
+    
+                    <label for="mySexe"> Sexe :</label>
+                    
+                    <input type="radio" name="sexe" id="">
+                    <label for="rb_homme">Homme</label>
+                    <input type="radio" name="sexe" id="">
+                    <label for="rb_homme">Femme</label>
+                    <input type="radio" name="sexe" id="">
+                    <label for="rb_autre">Autre</label>
+                    
+                </div>
+    
+                <div class="emailCont">
+                    
+                    <input id="myEmail" name="email" placeholder="Email" type="email" name="" id="">
+    
+                </div>
+    
+                <div class="numCont">
+                    <input id="myMobileNum" name="mobileNum" placeholder="N° mobile" type="number">
+                    <div class="espace"></div>
+                    <input id="myFixeNum" name="fixeNum" placeholder="N° fixe" type="number">
+    
+                </div>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Vos besoins</legend>
+                <div class="besoinCont">
+                    
+                    <select name="neededSkills" id="myNeededSkills">
+                        <option value="html-css">HTML-CSS</option>
+                        <option value="c#">C#</option>
+                        <option value="javascript">Javascript</option>
+                        <option value="bdd">Base de données</option>
+    
+                    </select>
+                    
+                    <textarea name="textarea" id="myDescription" cols="30" rows="3" placeholder="Description"></textarea>
+                   
+                    
+                </div>
+    
+            </fieldset>
+            <div class="sendAndReset">
+                
+                <input type="submit" value="Envoyer">
+                <div class="espace"></div>
+                <input type="reset" value="Reset">
+    
+            </div>
+    
+            <div class="theCV">
+
+                <a href="page.html">
+                    <input type="button" value="Retour au CV">
+
+    
+                </a>
+    
+            </div>
+    
+        </form>
+
+    </div>
+
+
+</body>
+</html>

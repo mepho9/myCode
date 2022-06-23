@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 15%;
+    background-image: url(img/background.jpg);
+}
+
+h1 {
+    color: goldenrod;
+    text-shadow: 1px 1px 2px gold;
+    margin-bottom: 2%;
+}
+
+p {
+    margin-bottom: 1%;
+}
+
+div > p {
+    font-weight: bold;
+}
+
+img {
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+section {
+    margin-bottom: 2%;
+}
+
+h2 {
+    border-bottom: 2px solid gold;
+    background-color: lightyellow;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+dt {
+    font-style: italic;
+    color: goldenrod;
+    margin-left: 1%;
+}
+
+dd {
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+li {
+    margin-left: 25px;
+    list-style: circle;
+}
+
+/* Flex box */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    padding: 5%;
+}
+
+.top-container {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.img-container, .comp-form-container {
+    width: 50%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.comp-form-container section {
+    width: 80%;
+}
+
+section {
+    border: 2px solid gold;
+}
+
+/* Form */
+
+fieldset {
+    padding: 1%;
+}
+
+fieldset div {
+    margin-bottom: 1%;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.name-container {
+    display: flex;
+}
+
+.marge {
+    width: 10px;
+}
+
+.name-container input {
+    flex-grow: 1;
+}
+
+.sexe-container input {
+    margin-left: 5%;
+}
+
+.mail-container {
+    display: flex;
+}
+
+.mail-container input {
+    flex-grow: 1;
+}
+
+.tel-container {
+    display: flex;
+}
+
+.tel-container input {
+    flex-grow: 1;
+}
+
+/* besoin */
+
+.besoin-container {
+    display: flex;
+}
+
+.besoin-container select {
+    height: 5%;
+    flex-grow: 1;
+}
+
+.besoin-container textarea {
+    flex-grow: 7;
+}
+
+.form-button-container {
+    display: flex;
+}
+
+.form-button-container input {
+    flex-grow: 1;
+    background-color: lightyellow;
+}
+
+a[href="page.html"] input {
+    width: 100%;
+    background-color: lightyellow;
+}
+
+textarea {
+    height: 50px;
+    resize: vertical;
+}

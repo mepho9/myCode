@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+a{
+    background: rgba(255, 255, 255, 0.356);
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100px;
+    margin-left: 45%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+a:hover{
+    background: rgba(255, 166, 0, 0.479);
+    color: white;
+}
+
+
+.container{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.image{
+    height: 500px;
+}
+
+.image img {
+    height: 100%
+}
+
+.describe{
+    align-self: center;
+    text-align: justify;
+    width: 30%;
+    padding: 20px;
+    background-color: #0000009f;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+}

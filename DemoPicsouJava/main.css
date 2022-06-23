@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 8%;
+    background-image: url(img/background.jpg); */
+}
+
+h1 {
+    color: goldenrod;
+    text-shadow: 1px 1px 2px gold;
+    margin-bottom: 2%;
+}
+
+p {
+    margin-bottom: 1%;
+}
+
+div > p {
+    font-weight: bold;
+}
+
+img {
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+section {
+    margin-bottom: 2%;
+}
+
+h2 {
+    border-bottom: 2px solid gold;
+    background-color: lightyellow;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+dt {
+    font-style: italic;
+    color: goldenrod;
+}
+
+dd {
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+li {
+    margin-left: 25px;
+}
+
+/* Flex  */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    padding: 5%;
+}
+
+.top-container {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.img-container, .exp-comp-container {
+    width: 50%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp-comp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.exp-comp-container section {
+    width: 80%;
+}
+
+section {
+    border: 2px solid gold;
+}
+section:hover{
+    background-color: magenta;
+
+}
+
+@media screen and (max-width:768px) {
+
+
+    .top-container{
+        
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .img-container{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .exp-comp-container{
+
+      
+        
+        width: 100%;
+        
+    }
+
+    .exp-comp-container section {
+        width: 100%;
+    }
+
+    body{
+        padding: 0 0;
+        background-image: url(None);
+    }
+
+}
+
+.mainCont{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+    background-color: white;
+    
+    height: 100vh;
+    
+}
+.titleCont{
+
+    display: flex;
+    justify-content: center;
+}
+.nomCont{
+
+    display: flex;
+    
+}
+.nomCont input {
+    flex-grow: 3;
+
+}
+.espace{
+    width: 10px;
+}
+
+
+.sexeCont{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 1% 0;
+    margin-left:-2.5%
+
+}
+
+.emailCont{
+
+    display: flex;
+    margin-bottom: 1%;
+}
+.emailCont input{
+    flex-grow: 1;
+}
+
+.numCont{
+    display: flex;
+    margin-bottom: 2%;
+
+}
+
+.numCont input{
+    flex-grow: 1;
+}
+
+fieldset{
+    padding : 1% 1%;
+}
+
+.besoinCont{
+    display: flex;
+}
+
+.besoinCont select{
+    height: 10%;
+}
+.besoinCont textarea{
+    flex-grow: 1;
+   
+}
+
+.sendAndReset{
+    display: flex;
+
+}
+
+.sendAndReset input{
+    flex-grow: 1;
+    background-color: rgb(247, 247, 169);
+}
+
+.theCV a{
+    display: flex;
+    text-decoration: none;
+
+}
+
+.theCV input{
+    flex-grow: 1;
+    background-color: rgb(247, 247, 169);
+}
+
+textarea{
+    resize: vertical;
+}

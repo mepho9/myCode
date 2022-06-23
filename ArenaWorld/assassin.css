@@ -1,0 +1,30 @@
+body{
+    background-image: url("./images/bg3.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+}
+.maincont {
+    display: flex;
+    flex-direction: row;
+}
+.bolt {
+    font-weight: bold;
+}
+.info {
+    width: 50%;
+    display: flex;
+    background: url("https://www.pngmart.com/files/21/Blood-PNG-Isolated-Transparent.png");
+    background-size: cover;
+    margin-bottom: 20%;
+    border-radius: 10px;
+    width: 100%;
+}
+#assassin {
+    height: 60%;
+}

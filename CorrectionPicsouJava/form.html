@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main-container">
+        <form>
+            <h1 class="form-title">Formulaire de contact</h1>
+            <fieldset>
+                <legend>Coordonnées</legend>
+                <div class="name-container">
+                    <input type="text" placeholder="Nom">
+                    <div class="marge"></div>
+                    <input type="text" placeholder="Prénom">
+                </div>
+    
+                <div class="sexe-container">
+                    <label>Sexe :</label>
+                    <input type="radio" name="sexe">
+                    <label>Homme</label>
+                    <input type="radio" name="sexe">
+                    <label>Femme</label>
+                    <input type="radio" name="sexe">
+                    <label>Autre</label>
+                </div>
+    
+                <div class="mail-container">
+                    <input type="email" placeholder="E-mail">
+                </div>
+    
+                <div class="tel-container">
+                    <input type="tel" placeholder="N° mobile">
+                    <div class="marge"></div>
+                    <input type="tel" placeholder="N° fixe">
+                </div>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Vos besoins</legend>
+                <div class="besoin-container">
+                    <select>
+                        <option value="html">HTML-CSS</option>
+                        <option value="js">Javascript</option>
+                        <option value="csharp">C#</option>
+                    </select>
+    
+                    <textarea placeholder="Description"></textarea>
+                </div>
+            </fieldset>
+
+            <div class="form-button-container">
+                <input type="submit" value="Envoyer">
+                <div class="marge"></div>
+                <input type="reset" value="Reset">
+            </div>
+
+            <a href="page.html"><input type="button" value="Retour au CV"></a>
+        </form>
+    </div>
+</body>
+</html>

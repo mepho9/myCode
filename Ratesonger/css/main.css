@@ -1,0 +1,71 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+#mainCont::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    padding: 0 8%;
+    background-image: url(/pic/bg6.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+#picWelcome{
+    width: 40%;
+}
+
+#mainCont{
+    background-image: url(/pic/bg15.jpg);
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
+    overflow:scroll;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.topCont{
+    display: flex;
+    justify-content: center;
+    margin: 3% 3%;
+    margin-bottom: 5%;
+    align-items: stretch;
+
+
+}
+.botCont{
+    display :flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.league{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#picLeague{
+    width:25%;
+}
+iframe{
+    margin : 5%
+}
+#picMusic{
+    width:80%;
+}
+.music{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
